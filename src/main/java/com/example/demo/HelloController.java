@@ -12,7 +12,7 @@ public class HelloController {
 
     @GetMapping
     public String sayHello() {
-        System.out.println("hello!!");
+        System.out.println("하잉~");
         return "Hello, World!";
     }
 }
